@@ -1,0 +1,13 @@
+.square{
+    display: block;
+    float: left;
+    height: 120px;
+    border: 1px solid orange;
+    width: 120px;
+    text-align: center;
+    color: red;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 25px;
+}

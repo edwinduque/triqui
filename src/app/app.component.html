@@ -1,0 +1,15 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1 class="text-success">
+    Triqui
+  </h1>
+  </div>
+  <div>
+ <app-linea *ngFor="let fila of [1,2,3 ]" [fila]="fila" [partida] = "partida" (selectedOnLine) ="OnLineSelected($event)"></app-linea>
+</div>
+ <div class="row botonera">
+   <input type="button" class="btn btn-success" (click)="cleanPage()" value="Reiniciar partida"/>
+ </div>
+ <div class="row botonera">
+  <h4 class="text-info" id="msgResultado"></h4>
+ </div>
